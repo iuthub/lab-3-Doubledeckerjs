@@ -28,6 +28,7 @@ body
 	padding:5px;
 	margin-top:10px;
 	overflow:auto;
+
 }
 .d
 {
@@ -36,5 +37,24 @@ body
 .article img
 {
 	float:right;
+}
+#left
+{
+	width:20%;
+	float: left;
+	border:5px solid deepskyblue;
+	background-color: skyblue;
+	color:white;
+	padding:10px;
+	
+	margin:10px;
 
+}
+#right
+{
+	overflow: hidden;
+}
+body *:hover
+{
+ background-color: yellow;
 }
